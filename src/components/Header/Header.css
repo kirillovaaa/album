@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background: url(../../images/indonesia.png) no-repeat top center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.header__items {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+.header__item:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 210px;
+  justify-content: center;
+  position: relative;
+}
+.header__image:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.header__wrapper-link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  left: 20px;
+}
+.header__text {
+  writing-mode: vertical-rl;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.header__name {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.header__more-icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.header__title {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 600;
+}
+.header__subtitle {
+  margin: 0;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.header__more {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__wrapper-link {
+    display: none;
+  }
+  .header__items {
+    gap: 40px;
+  }
+}
