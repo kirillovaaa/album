@@ -10,7 +10,7 @@ function Nav() {
         <li className="nav__wrapper-item">YEREVAN</li>
         <li className="nav__wrapper-item">GEORGIA</li>
         <li className="nav__wrapper-item">TURKEY</li>
-        <li className="nav__wrapper-item">OAE</li>
+        <li className="nav__wrapper-item">UAE</li>
       </ul>
     </section>
   );
