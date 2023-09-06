@@ -1,8 +1,6 @@
 @import url(../src/vendor/normalize.css);
 
 body {
-  margin-left: 30px;
-  margin-right: 30px;
   font-family: "Inter", system-ui, -apple-system, Roboto, Ubuntu, Helvetica,
     Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -19,8 +17,3 @@ code {
 * {
   box-sizing: border-box;
 }
-/* 
-main {
-  display: flex;
-  flex-direction: column;
-} */

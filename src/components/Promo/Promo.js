@@ -13,12 +13,16 @@ function Promo() {
             <br /> more!
           </h2>
           <p className="promo__tdescription">
-            hi, I'm Sasha and I travel a lot and I'll show you the album that I
+            Hi, I'm Sasha and I travel a lot and I'll show you the album that I
             created in these 2 years
           </p>
           <div className="promo__more">
-            <span className="promo__more-text">See more</span>
-            <span className="promo__more-icon">→</span>
+            <span className="promo__more-text">
+              <span class="colortext">See more</span>
+            </span>
+            <span className="promo__more-icon">
+              <span class="colortext">→</span>
+            </span>
           </div>
         </div>
       </div>

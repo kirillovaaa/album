@@ -31,3 +31,7 @@
   flex-direction: row;
   gap: 10px;
 }
+.promo__more:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

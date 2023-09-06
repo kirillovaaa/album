@@ -1,0 +1,41 @@
+.info {
+  max-width: 1010px;
+  width: 100%;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.info__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url(../../images/volcano.png);
+  background-position: center;
+  background-size: cover;
+}
+.info__title {
+  font-weight: 700;
+  font-size: 50px;
+  position: absolute;
+  bottom: 80px;
+}
+
+.info__subtitle {
+  position: absolute;
+  bottom: 30px;
+}
+
+.info__button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 10px;
+}
+.info__button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
