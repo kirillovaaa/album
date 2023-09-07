@@ -22,11 +22,13 @@
   font-size: 50px;
   position: absolute;
   bottom: 80px;
+  letter-spacing: 1px;
 }
 
 .info__subtitle {
   position: absolute;
   bottom: 30px;
+  letter-spacing: 1px;
 }
 
 .info__button {

@@ -22,6 +22,8 @@
 }
 .header__item-button {
   border: none;
+  letter-spacing: 1px;
+  font-size: 15px;
   background: transparent;
   color: white;
 }
@@ -46,8 +48,8 @@
 }
 .header__text {
   writing-mode: vertical-rl;
-  font-size: 18px;
-  line-height: 18px;
+  letter-spacing: 1px;
+  font-size: 15px;
 }
 
 .header__name {
@@ -63,11 +65,13 @@
   margin: 0;
   font-size: 60px;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 .header__subtitle {
   margin: 0;
   font-weight: 400;
   font-size: 50px;
+  letter-spacing: 1px;
 }
 
 .header__more {
@@ -77,6 +81,10 @@
   align-items: center;
   justify-content: center;
   margin-top: 45px;
+}
+.header__more-text {
+  letter-spacing: 1px;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 768px) {

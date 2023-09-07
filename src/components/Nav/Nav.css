@@ -9,6 +9,9 @@
   gap: 90px;
   justify-content: center;
 }
+.nav__wrapper-item {
+  letter-spacing: 1px;
+}
 
 .nav__wrapper-item:hover {
   opacity: 0.5;
