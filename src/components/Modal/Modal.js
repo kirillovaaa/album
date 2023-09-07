@@ -6,6 +6,7 @@ const Modal = ({ active, setActive }) => {
     <div
       className={active ? "modal modal_active" : "modal"}
       onClick={() => setActive(false)}
+      id="about-me"
     >
       <div className="modal__content" onClick={(e) => e.stopPropagation()}>
         <p className="modal__content-text">TEXT</p>

@@ -7,7 +7,7 @@ const Info = () => {
   const [modalActive, setModalActive] = useState(false);
   return (
     <>
-      <section className="info">
+      <section className="info" id="about-project">
         <div className="info__wrapper">
           <button className="info__button" onClick={() => setModalActive(true)}>
             <img src={pointer} className="info__button-image" alt="pointer" />

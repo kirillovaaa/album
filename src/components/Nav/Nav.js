@@ -3,7 +3,7 @@ import "./Nav.css";
 
 function Nav() {
   return (
-    <section className="nav">
+    <section className="nav" id="album">
       <ul className="nav__wrapper">
         <li className="nav__wrapper-item">INDONESIA</li>
         <li className="nav__wrapper-item">THAILAND</li>

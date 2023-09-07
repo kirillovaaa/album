@@ -16,9 +16,14 @@
   gap: 100px;
   margin-top: 50px;
 }
-.header__item:hover {
+.header__item-button:hover {
   opacity: 0.5;
   cursor: pointer;
+}
+.header__item-button {
+  border: none;
+  background: transparent;
+  color: white;
 }
 .header__wrapper {
   display: flex;
